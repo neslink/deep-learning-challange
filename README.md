@@ -12,7 +12,7 @@ We will use various features to manipulate a given dataset and utilize it to pre
 Target Variable for our model:
 
 - The target variable for the model is "IS_SUCCESSSFUL". Features for the Model:
-- The features for the model include: 1. APPLICATION_TYPE 2. AFFILIATION 3. CLASSIFICATION 4. USE_CASE 5. ORGANIZATION 6. STATUS 8. INCOME_AMT 9. SPECIAL_CONSIDERATIONS 10. ASK_AMT
+- The features for the model include: 1. Application Type 2. Affiliation 3. Classification 4. Use Case 5. Organization 6. Status 8. Income AMT 9. Special Considerations 10. Ask AMT
 
 We removed variables such as [list removed variables] since they don't contribute to the target and dont serve as features for our model.
 The variables EIN and NAME were removed from the input data as they are identification columns
@@ -27,7 +27,7 @@ Hidden layers: Tanh activation functions were chosen to introduce non-linearity.
 Output layer: Sigmoid activation function to produce binary classification probabilities.
 
 - Were you able to achieve the target model performance?
-- The model was able to achieve - loss: 0.5510 - accuracy: 0.7353 - 318ms/epoch - 1ms/step Loss: 0.5509999394416809, Accuracy: 0.735276997089386 close to the target performance, indicating its effectiveness in classification tasks.
+- The model was able to achieve - loss: 0.5510 - accuracy: 0.7353 - 318ms/epoch - 1ms/step Loss: 0.5509, Accuracy: 0.7352 close to the target performance, indicating its effectiveness in classification tasks.
 
 # Target model performace was 74%
 
